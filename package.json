@@ -1,7 +1,7 @@
 {
-  "name": "vue-ele-form",
+  "name": "vue-ele-form-yd",
   "description": "基于 element-ui 的数据驱动表单组件",
-  "version": "0.8.56",
+  "version": "0.8.57",
   "license": "MIT",
   "private": false,
   "scripts": {
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dream2023/vue-ele-form"
+    "url": "https://github.com/huashizhong-hub/vue-ele-form.git"
   },
   "main": "dist/vue-ele-form.umd.min.js",
   "homepage": "https://dream2023.github.io/vue-ele-form/",
@@ -66,5 +66,13 @@
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/huashizhong-hub/vue-ele-form/issues"
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "author": "hsz"
 }
