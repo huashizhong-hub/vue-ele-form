@@ -58,7 +58,7 @@
     "husky": "^3.1.0",
     "json-templater": "^1.2.0",
     "lint-staged": "^9.5.0",
-    "standard-version": "^7.0.0",
+    "standard-version": "^8.0.1",
     "vue": "^2.6.11",
     "vue-template-compiler": "^2.6.11"
   },
