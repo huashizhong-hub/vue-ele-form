@@ -1,7 +1,7 @@
 {
   "name": "vue-ele-form-yd",
   "description": "基于 element-ui 的数据驱动表单组件",
-  "version": "0.8.61",
+  "version": "0.8.63",
   "license": "MIT",
   "private": false,
   "scripts": {
@@ -33,7 +33,8 @@
     "clone": "^2.1.2",
     "dayjs": "^1.8.31",
     "is-number": "^7.0.0",
-    "throttle-debounce": "^2.2.1"
+    "throttle-debounce": "^2.2.1",
+    "vuedraggable": "^2.24.3"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
