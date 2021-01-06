@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.65](https://github.com/huashizhong-hub/vue-ele-form/compare/v0.8.64...v0.8.65) (2021-01-06)
+
 ### [0.8.64](https://github.com/huashizhong-hub/vue-ele-form/compare/v0.8.63...v0.8.64) (2021-01-06)
 
 ### [0.8.63](https://github.com/huashizhong-hub/vue-ele-form/compare/v0.8.61...v0.8.63) (2021-01-05)
