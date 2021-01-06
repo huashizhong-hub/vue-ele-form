@@ -1,13 +1,13 @@
 {
   "name": "vue-yd-form",
   "description": "基于 element-ui 的数据驱动表单组件",
-  "version": "0.8.65",
+  "version": "0.8.66",
   "license": "MIT",
   "private": false,
   "scripts": {
     "build:entry": "node build/build-entry.js",
     "serve": "npm run build:entry && vue-cli-service serve",
-    "build:lib": "npm run build:entry && vue-cli-service build --target lib --name vue-ele-form --dest ./dist/ ./lib/index.js",
+    "build:lib": "npm run build:entry && vue-cli-service build --target lib --name vue-yd-form --dest ./dist/ ./lib/index.js",
     "build:docs": "vue-cli-service build",
     "build": "npm run lint && npm run build:entry & npm run build:lib && npm run build:docs",
     "lint": "vue-cli-service --mode production lint lib/*",
@@ -21,7 +21,7 @@
   "main": "dist/vue-ele-form.umd.min.js",
   "homepage": "https://dream2023.github.io/vue-ele-form/",
   "keywords": [
-    "vue-ele-form",
+    "vue-yd-form",
     "vue form",
     "element form",
     "element",
