@@ -1,25 +1,25 @@
 {
   "name": "vue-yd-form",
   "description": "基于 element-ui 的数据驱动表单组件",
-  "version": "0.8.69",
+  "version": "0.8.76",
   "license": "MIT",
   "private": false,
   "scripts": {
     "build:entry": "node build/build-entry.js",
     "serve": "npm run build:entry && vue-cli-service serve",
-    "build:lib": "npm run build:entry && vue-cli-service build --target lib --name vue-yd-form --dest ./dist/ ./lib/index.js",
+    "build:lib": "npm run build:entry && vue-cli-service build --target lib --name vue-yd-form --dest ./dist/ ./lib/index.js ./lib/images",
     "build:docs": "vue-cli-service build",
-    "build": "npm run lint && npm run build:entry & npm run build:lib && npm run build:docs",
-    "lint": "vue-cli-service --mode production lint lib/*",
+    "build": "npm run build:entry & npm run build:lib && npm run build:docs",
+    "lint": "vue-cli-service --mode production lint lib/images/*",
     "release": "standard-version",
     "pub": "npm run build:lib && npm run release &&  npm publish --registry https://registry.npmjs.org && git push --follow-tags origin develop"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/huashizhong-hub/vue-ele-form.git"
+    "url": "git+https://github.com/huashizhong-hub/vue-ele-form.git"
   },
   "main": "dist/vue-yd-form.umd.min.js",
-  "homepage": "https://dream2023.github.io/vue-ele-form/",
+  "homepage": "https://github.com/huashizhong-hub/vue-ele-form/",
   "keywords": [
     "vue-yd-form",
     "vue form",
@@ -30,10 +30,20 @@
   ],
   "types": "./types/index.d.ts",
   "dependencies": {
+    "@riophae/vue-treeselect": "^0.4.0",
+    "bc-quill-image-resize-module": "^3.0.0",
     "clone": "^2.1.2",
     "dayjs": "^1.8.31",
     "is-number": "^7.0.0",
+    "ly-downloader": "^1.0.5",
+    "mavon-editor": "^2.9.1",
+    "pretty-bytes": "^5.3.0",
     "throttle-debounce": "^2.2.1",
+    "v-jsoneditor": "^1.4.2",
+    "vue-codemirror": "^4.0.6",
+    "vue-hover-mask": "^1.0.0",
+    "vue-image-crop-upload": "^2.5.0",
+    "vue2-editor": "^2.10.2",
     "vuedraggable": "^2.24.3"
   },
   "devDependencies": {
@@ -72,6 +82,7 @@
     "url": "https://github.com/huashizhong-hub/vue-ele-form/issues"
   },
   "directories": {
+    "doc": "docs",
     "example": "example",
     "lib": "lib"
   },

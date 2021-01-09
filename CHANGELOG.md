@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.8.76](https://github.com/huashizhong-hub/vue-ele-form/compare/v0.8.69...v0.8.76) (2021-01-09)
+
+### [0.8.75](https://github.com/huashizhong-hub/vue-ele-form/compare/v0.8.69...v0.8.75) (2021-01-09)
+
+### [0.8.75](https://github.com/huashizhong-hub/vue-ele-form/compare/v0.8.69...v0.8.75) (2021-01-09)
+
+### [0.8.74](https://github.com/huashizhong-hub/vue-ele-form/compare/v0.8.69...v0.8.74) (2021-01-09)
+
+### [0.8.73](https://github.com/huashizhong-hub/vue-ele-form/compare/v0.8.69...v0.8.73) (2021-01-09)
+
+### [0.8.72](https://github.com/huashizhong-hub/vue-ele-form/compare/v0.8.69...v0.8.72) (2021-01-09)
+
+### [0.8.71](https://github.com/huashizhong-hub/vue-ele-form/compare/v0.8.69...v0.8.71) (2021-01-09)
+
+### [0.8.70](https://github.com/huashizhong-hub/vue-ele-form/compare/v0.8.69...v0.8.70) (2021-01-09)
+
 ### [0.8.69](https://github.com/huashizhong-hub/vue-ele-form/compare/v0.8.68...v0.8.69) (2021-01-06)
 
 ### [0.8.68](https://github.com/huashizhong-hub/vue-ele-form/compare/v0.8.67...v0.8.68) (2021-01-06)
